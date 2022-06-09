@@ -1,5 +1,7 @@
 # Welcome to CS162 Final Project
 
+This repository is a copy of a private repository (hosted in university account and thus cannot be made private). The code in the repository is the resul of work of 4 people. I focused on the creation and population of database (models.py, insert_data.py in web folder) and then routing of the pages (routing.py) and then the rest of the web folder. I also worked on unit testing; yet, the testing part needs a bit of work.
+
 We tried deploying the project to Heroku, but bumped into errors, so please 
 use the code here and run the app locally. 
 
