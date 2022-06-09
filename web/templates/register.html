@@ -1,0 +1,41 @@
+{% extends "layout.html" %}
+{% block body %}
+<div style="margin-top: 50px;" class="ui container">
+    <div style="margin-top: 50px;" class="ui container">
+        <h2 class="ui center aligned header" > Sign up | Minerva Class Rater</h2>
+    <form  class="ui form" action="register" method="POST">
+        {{ form.hidden_tag() }}
+        <div class="field">
+            <label>Username </label>
+            <input type=text name=username placeholder="Create username">
+            {% for error in form.username.errors %}
+            <span style="color: red;">[{{ error }}]</span>
+            {% endfor %}
+        </div>
+        <div class="field">
+            <label>Email </label>
+            <input type=text name=email placeholder="email@uni.minerva.edu">
+            {% for error in form.username.errors %}
+            <span style="color: red;">[{{ error }}]</span>
+            {% endfor %}
+        </div>
+        <div class="field">
+            <label>Password </label>
+            <input type=password name=password placeholder="Create password">
+            {% for error in form.password.errors %}
+            <span style="color: red;">[{{ error }}]</span>
+            {% endfor %}
+        </div>
+        <div class="field">
+            <label>Confirm password </label>
+            <input type=password name=password2 placeholder="Confirm password">
+            {% for error in form.password2.errors %}
+            <span style="color: red;">[{{ error }}]</span>
+            {% endfor %}
+        </div>
+        <div style="margin-top: 20px;">
+            <button class="ui right floated blue button" value=Signup>Sign up</button>
+        </div>
+    </form>
+</div>
+{% endblock %}

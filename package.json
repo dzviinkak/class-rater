@@ -1,0 +1,26 @@
+{
+  "name": "cs162-class-rater",
+  "version": "1.0.0",
+  "description": "![template ci](https://github.com/minerva-schools/template-cs162/actions/workflows/ci.yaml/badge.svg)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/minerva-university/cs162-class-rater.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/minerva-university/cs162-class-rater/issues"
+  },
+  "homepage": "https://github.com/minerva-university/cs162-class-rater#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.0.23"
+  },
+  "dependencies": {
+    "chart.js": "^3.7.1"
+  }
+}
